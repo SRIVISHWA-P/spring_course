@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<!--    <bean id = "alien" class = "org.example.Alien" scope="prototype ">-->
+    <bean id = "alien" class = "org.example.Alien" >
+      <!-- constructors -->
+<!--        <constructor-arg index = "0" value = "21" />-->
+<!--        <constructor-arg index = "1" ref = "laptop" />-->
+
+        <!-- setters -->
+        <property name="age" value = "21"/>
+        <!-- wiring -->
+<!--        <property name = "com"  ref = "com1"/>-->
+        <property name = "com">
+            <bean id = "com" class = "org.example.Laptop" primary="true">
+            </bean>
+        </property>
+    </bean>
+
+<!--    <bean id = "com" class = "org.example.Laptop" primary="true">-->
+<!--    </bean>-->
+    <bean id = "com1" class = "org.example.Desktop" lazy-init="true">
+    </bean>
+</beans>

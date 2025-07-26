@@ -1,0 +1,19 @@
+<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
+    <session-factory>
+        <property name = "hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name = "hibernate.connection.url">jdbc:postgresql://localhost:5432/learning</property>
+        <property name = "hibernate.connection.username">postgres</property>
+        <property name = "hibernate.connection.password">9090</property>
+
+        <!--        for creating the table-->
+        <property name="hibernate.hbm2ddl.auto">update</property> <!-- this will update the existing table-->
+<!--        <property name="hibernate.hbm2ddl.auto">create</property> --> <!--this will create the new table everytime-->
+
+        <!--        to show the sql query in a formatted way-->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        
+        <!--        in order to specify the dialect for specific language-->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+    </session-factory>
+</hibernate-configuration>

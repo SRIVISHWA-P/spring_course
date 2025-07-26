@@ -1,0 +1,14 @@
+INDEX VERSION 1.134+D:\MY_PROJECTS\Local projects\java\NewLearning\Spring-MVCEclipse\.metadata\.plugins\org.eclipse.jdt.core
+3007147357.index
+3392887783.index
+865295647.index
+3946208604.index
+2460267085.index
+2527096394.index
+1865797976.index
+425111279.index
+1041284200.index
+354081004.index
+1262329273.index
+107638654.index
+2656827360.index

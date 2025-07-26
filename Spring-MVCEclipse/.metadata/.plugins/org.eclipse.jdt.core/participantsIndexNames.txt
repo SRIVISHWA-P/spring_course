@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+D:\MY_PROJECTS\Local projects\java\NewLearning\Spring-MVCEclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2538004665.index
+\SpringMVCDemo\src\main\resources
+D:\MY_PROJECTS\Local projects\java\NewLearning\Spring-MVCEclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1315843651.index
+\SpringMVCDemo\src\main\java
